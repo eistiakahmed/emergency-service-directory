@@ -31,14 +31,14 @@
       
       <!-- Logo Section -->
       <div class="flex items-center gap-4">
-        <img src="./assets/logo.png" alt="Emergency Service Logo" class="h-[60px] w-[60px]">
-        <h1 class="font-black text-2xl text-green-700">
-          Emergency<br>Service
+        <img src="./assets/logo.png" alt="Emergency Service Logo" class="h-[git 60px] w-[60px]">
+        <h1 class="font-extrabold md:font-black text-2xl md:text-3xl text-green-700">
+          Emergency<br class="hidden md:block"> Service
         </h1>
       </div>
 
       <!-- Status & Action Section -->
-      <div class="flex items-center gap-5 mt-3">
+      <div class="flex items-center gap-5 mt-6 mb-3 md:mb-0 md:mt-0">
         
         <!-- heart icon -->
         <div class="flex items-center gap-3 bg-[#41ff6b1a] px-4 py-2 rounded-3xl w-[123px] h-[52px] justify-center">
@@ -59,7 +59,7 @@
       </div>
     </nav>
     <!-- Banner -->
-    <section class="banner bg-gradient-to-r from-[rgba(1,49,34,1)] via-[rgba(0,103,71,1)] to-[rgba(1,50,35,1)] h-[239px] ">
+    <section class="banner bg-gradient-to-r from-[rgba(1,49,34,1)] via-[rgba(0,103,71,1)] to-[rgba(1,50,35,1)] h-[250px] ">
         <div class="text-center pt-6">
             <img src="./assets/logo-dark.png" alt="" class="h-[92px] w-[92px] mx-auto ">
             <h1 class="font-semibold md:font-bold md:text-[40px] text-white">Emergency Service Directory</h1>
@@ -69,15 +69,17 @@
   </header>
 
   <main>
-    <section class="md:max-w-[1860px] mx-auto py-10 grid md:grid-cols-12 gap-8 bg-[#f5fff6]">
-        <section class="md:col-span-9 grid md:grid-cols-3 gap-4 ">
+    <section class="md:max-w-[1860px] mx-auto py-10 md:grid md:grid-cols-12 gap-8 bg-[#f5fff6] flex flex-col-reverse">
+        <section class="px-5 md:px-0 md:col-span-9 grid md:grid-cols-3 gap-4 ">
             <!-- card-1 -->
             <div class="p-5  rounded-xl shadow-2xl bg-white ">
              <div class="p-5 flex items-center justify-between ">
                 <div class="bg-[#ffe3e2] rounded-3xl w-[60px] h-[60px] p-3">
                     <img src="./assets/emergency.png" alt="">
                 </div>
-                    <i class="fa-regular fa-heart text-3xl"></i>
+                   <div id="heart-btn">
+                     <i class="fa-regular fa-heart text-3xl"></i>
+                   </div>
             </div>
             <div>
                 <h1 class="text-2xl font-bold">National Emergency Number</h1>
@@ -86,8 +88,8 @@
                 <div class="bg-[#f2f2f2] w-[53px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2">
                     <h4 class="text-gray-500">All</h4>
                 </div>
-                    <button class="w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
-                    <button class="w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
+                    <button class="w-32 md:w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
+                    <button class="w-36 md:w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
             </div>
            </div>
            <!-- card-2 -->
@@ -105,8 +107,8 @@
                 <div class="bg-[#f2f2f2] w-[65px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2">
                     <h4 class="text-gray-500">Police</h4>
                 </div>
-                    <button class="w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
-                    <button class="w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
+                    <button class="w-32 md:w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
+                    <button class="w-36 md:w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
             </div>
            </div>
            <!-- card-3 -->
@@ -124,8 +126,8 @@
                 <div class="bg-[#f2f2f2] w-[55px] h-[37px] rounded-full flex justify-center items-center px-4 py-[6px] mt-2">
                     <h4 class="text-gray-500">Fire</h4>
                 </div>
-                    <button class="w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
-                    <button class="w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
+                    <button class="w-32 md:w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
+                    <button class="w-36 md:w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
             </div>
            </div>
            <!-- card-4 -->
@@ -143,8 +145,8 @@
                 <div class="bg-[#f2f2f2] w-[65px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2">
                     <h4 class="text-gray-500">Health</h4>
                 </div>
-                    <button class="w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
-                    <button class="w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
+                   <button class="w-32 md:w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
+                    <button class="w-36 md:w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
             </div>
            </div>
            <!-- card-5 -->
@@ -162,8 +164,8 @@
                 <div class="bg-[#f2f2f2] w-[55px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2">
                     <h4 class="text-gray-500">Help</h4>
                 </div>
-                    <button class="w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
-                    <button class="w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
+                    <button class="w-32 md:w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
+                    <button class="w-36 md:w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
             </div>
            </div>
            <!-- card-6 -->
@@ -181,8 +183,8 @@
                 <div class="bg-[#f2f2f2] w-[55px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2">
                     <h4 class="text-gray-500">Govt.</h4>
                 </div>
-                    <button class="w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
-                    <button class="w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
+                    <button class="w-32 md:w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
+                    <button class="w-36 md:w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
             </div>
            </div>
            <!-- card-7 -->
@@ -200,8 +202,8 @@
                 <div class="bg-[#f2f2f2] w-[90px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2">
                     <h4 class="text-gray-500">Electricity</h4>
                 </div>
-                    <button class="w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
-                    <button class="w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
+                    <button class="w-32 md:w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
+                    <button class="w-36 md:w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
             </div>
            </div>
            <!-- card-8 -->
@@ -219,8 +221,8 @@
                 <div class="bg-[#f2f2f2] w-[60px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2">
                     <h4 class="text-gray-500">NGO</h4>
                 </div>
-                    <button class="w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
-                    <button class="w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
+                   <button class="w-32 md:w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
+                    <button class="w-36 md:w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
             </div>
            </div>
            <!-- card-9 -->
@@ -238,12 +240,12 @@
                 <div class="bg-[#f2f2f2] w-[65px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2">
                     <h4 class="text-gray-500">Travel</h4>
                 </div>
-                    <button class="w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
-                    <button class="w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
+                    <button class="w-32 md:w-[182px] h-10 border-2 border-gray-400 mt-3 rounded-3xl text-[#404040] mr-4 font-medium"><i class="fa-solid fa-clone"></i> Copy</button>
+                    <button class="w-36 md:w-[182px] h-10 bg-green-600  rounded-3xl text-white font-medium "><i class="fa-solid fa-phone"></i> Call</button>
             </div>
            </div>
         </section>
-        <aside class="bg-white col-span-3 rounded-3xl shadow-2xl p-6">
+        <aside class="mt-4 md:mt-0 bg-white col-span-3 rounded-3xl shadow-2xl mx-4 p-6 md:mx-0 ">
             <div class="flex justify-between items-center">
                <div class="flex gap-2 items-center">
                  <span><i class="fa-solid fa-clock text-lg text-gray-500"></i></span>
