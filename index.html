@@ -54,14 +54,12 @@
         <div class="flex items-center gap-5 mt-6 mb-3 md:mb-0 md:mt-0">
           <!-- heart icon -->
           <div
-            class="flex items-center gap-2 md:gap-3 bg-[#41ff6b1a] px-4 py-2 rounded-3xl md:w-[123px] h-[52px] justify-center"
-          >
+            class="flex items-center gap-2 md:gap-3 bg-[#41ff6b1a] px-4 py-2 rounded-3xl md:w-[123px] h-[52px] justify-center">
             <span id="heart-counts" class="font-black text-lg">0</span>
             <img
               src="./assets/heart.png"
               alt="Heart Icon"
-              class="w-[35px] h-[35px]"
-            />
+              class="w-[35px] h-[35px]"/>
           </div>
 
           <!-- Coins -->
@@ -78,15 +76,14 @@
 
           <!-- Copy Button -->
           <button
-            class="bg-[#00a63e] text-white font-bold px-4 py-2 rounded-3xl w-[127px] flex justify-center items-center gap-1 h-[50px]">
-            <span>0</span> Copy
+            class="bg-[#00a63e] text-white font-bold px-4 py-2 rounded-3xl w-[127px] flex justify-center items-center gap-3 h-[50px]">
+            <span id="copy-counts">0</span> Copy
           </button>
         </div>
       </nav>
       <!-- Banner -->
       <section
-        class="banner bg-gradient-to-r from-[rgba(1,49,34,1)] via-[rgba(0,103,71,1)] to-[rgba(1,50,35,1)] h-[250px] py-"
-      >
+        class="banner bg-gradient-to-r from-[rgba(1,49,34,1)] via-[rgba(0,103,71,1)] to-[rgba(1,50,35,1)] h-[250px] py-">
         <div class="text-center pt-6">
           <img
             src="./assets/logo-dark.png"
@@ -96,9 +93,7 @@
           <h1 class="font-semibold md:font-bold md:text-[40px] text-white">
             Emergency Service Directory
           </h1>
-          <p
-            class="text-sm mt-2 md:mt-1 px-2 md:font-light md:text-xl text-white"
-          >
+          <p class="text-sm mt-2 md:mt-1 px-2 md:font-light md:text-xl text-white">
             Government Emergency Services at Your Fingertip – A Project by
             Government of the People’s Republic of Bangladesh
           </p>
@@ -107,9 +102,7 @@
     </header>
 
     <main class="bg-[#f5fff6] mt-4">
-      <section
-        class="md:w-11/12 mx-auto py-10 md:grid md:grid-cols-12 gap-8 flex flex-col-reverse"
-      >
+      <section class="md:w-11/12 mx-auto py-10 md:grid md:grid-cols-12 gap-8 flex flex-col-reverse">
         <section class="px-5 md:px-0 md:col-span-9 grid md:grid-cols-3 gap-6">
           <!-- card-1 -->
           <div class="p-5 rounded-xl shadow-2xl bg-white">
@@ -117,27 +110,21 @@
               <div class="bg-[#ffe3e2] rounded-3xl w-[60px] h-[60px] p-3">
                 <img src="./assets/emergency.png" alt="" />
               </div>
-              <div
-                class="heart-btn text-gray-500 cursor-pointer hover:text-rose-500 active:scale-90 transition duration-150 ease-in-out"
-              >
+              <div class="heart-btn text-gray-500 cursor-pointer hover:text-rose-500 active:scale-90 transition duration-150 ease-in-out">
                 <i class="fa-regular fa-heart text-2xl"></i>
               </div>
             </div>
-            <div>
+            <div class="card">
               <h1 id="" class="text-2xl font-bold">
                 National Emergency Number
               </h1>
               <p class="text-lg text-gray-500">National Emergency</p>
-              <h1 id="" class="text-2xl font-bold mt-3 ml-1">999</h1>
-              <div
-                class="bg-[#f2f2f2] w-[53px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2 hover:bg-gray-300"
-              >
+              <h1 class="text-2xl font-bold mt-3 ml-1 copy-text">999</h1>
+              <div class="bg-[#f2f2f2] w-[53px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2 hover:bg-gray-300">
                 <h4 class="text-gray-500">All</h4>
               </div>
               <div class="mt-5 mb-3 flex justify-between items-center">
-                <button
-                  class="w-32 md:w-[180px] h-10 border-2 border-gray-400 hover:bg-slate-950 hover:text-white hover:border-2 hover:border-black rounded-xl text-[#404040] mr-4 font-medium copy-btn"
-                >
+                <button class="w-32 md:w-[180px] h-10 border-2 border-gray-400 hover:bg-slate-950 hover:text-white hover:border-2 hover:border-black rounded-xl text-[#404040] mr-4 font-medium copy-btn">
                   <i class="fa-solid fa-copy"></i> Copy
                 </button>
                 <button
@@ -161,10 +148,10 @@
                 <i class="fa-regular fa-heart text-2xl"></i>
               </div>
             </div>
-            <div>
+            <div class="card">
               <h1 class="text-2xl font-bold">Police Helpline Number</h1>
               <p class="text-lg text-gray-500">Police</p>
-              <h1 class="text-2xl font-bold mt-3 ml-1">999</h1>
+              <h1 class="text-2xl font-bold mt-3 ml-1 copy-text">999</h1>
               <div
                 class="bg-[#f2f2f2] hover:bg-gray-300 w-[65px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2"
               >
@@ -197,10 +184,10 @@
                 <i class="fa-regular fa-heart text-2xl"></i>
               </div>
             </div>
-            <div>
+            <div class="card">
               <h1 class="text-2xl font-bold">Fire Service Number</h1>
               <p class="text-lg text-gray-500">Fire Service</p>
-              <h1 class="text-2xl font-bold mt-3 ml-1">999</h1>
+              <h1 class="text-2xl font-bold mt-3 ml-1 copy-text">999</h1>
               <div
                 class="bg-[#f2f2f2] hover:bg-gray-300 w-[55px] h-[37px] rounded-full flex justify-center items-center px-4 py-[6px] mt-2"
               >
@@ -233,10 +220,10 @@
                 <i class="fa-regular fa-heart text-2xl"></i>
               </div>
             </div>
-            <div>
+            <div class="card">
               <h1 class="text-2xl font-bold">Ambulance Service</h1>
               <p class="text-lg text-gray-500">Ambulance</p>
-              <h1 class="text-2xl font-bold mt-3 ml-1">1994-999999</h1>
+              <h1 class="text-2xl font-bold mt-3 ml-1 copy-text">1994-999999</h1>
               <div
                 class="bg-[#f2f2f2] hover:bg-gray-300 w-[65px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2"
               >
@@ -269,10 +256,10 @@
                 <i class="fa-regular fa-heart text-2xl"></i>
               </div>
             </div>
-            <div>
+            <div class="card">
               <h1 class="text-2xl font-bold">Women & Child Helpline</h1>
               <p class="text-lg text-gray-500">Women & Child Helpline</p>
-              <h1 class="text-2xl font-bold mt-3 ml-1">109</h1>
+              <h1 class="text-2xl font-bold mt-3 ml-1 copy-text">109</h1>
               <div
                 class="bg-[#f2f2f2] hover:bg-gray-300 w-[55px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2"
               >
@@ -305,10 +292,10 @@
                 <i class="fa-regular fa-heart text-2xl"></i>
               </div>
             </div>
-            <div>
+            <div class="card">
               <h1 class="text-2xl font-bold">Anti-Corruption Helpline</h1>
               <p class="text-lg text-gray-500">Anti-Corruption</p>
-              <h1 class="text-2xl font-bold mt-3 ml-1">106</h1>
+              <h1 class="text-2xl font-bold mt-3 ml-1 copy-text">106</h1>
               <div
                 class="bg-[#f2f2f2] hover:bg-gray-300 w-[55px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2"
               >
@@ -341,10 +328,10 @@
                 <i class="fa-regular fa-heart text-2xl"></i>
               </div>
             </div>
-            <div>
+            <div class="card">
               <h1 class="text-2xl font-bold">Electricity Helpline</h1>
               <p class="text-lg text-gray-500">Electricity Outage</p>
-              <h1 class="text-2xl font-bold mt-3 ml-1">16216</h1>
+              <h1 class="text-2xl font-bold mt-3 ml-1 copy-text">16216</h1>
               <div
                 class="bg-[#f2f2f2] hover:bg-gray-300 w-[90px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2"
               >
@@ -377,10 +364,10 @@
                 <i class="fa-regular fa-heart text-2xl"></i>
               </div>
             </div>
-            <div>
+            <div class="card">
               <h1 class="text-2xl font-bold">Brac Helpline</h1>
               <p class="text-lg text-gray-500">Brac</p>
-              <h1 class="text-2xl font-bold mt-3 ml-1">16445</h1>
+              <h1 class="text-2xl font-bold mt-3 ml-1 copy-text">16445</h1>
               <div
                 class="bg-[#f2f2f2] hover:bg-gray-300 w-[60px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2"
               >
@@ -413,10 +400,10 @@
                 <i class="fa-regular fa-heart text-2xl"></i>
               </div>
             </div>
-            <div>
+            <div class="card">
               <h1 class="text-2xl font-bold">Bangladesh Railway Helpline</h1>
               <p class="text-lg text-gray-500">Bangladesh Railway</p>
-              <h1 class="text-2xl font-bold mt-3 ml-1">163</h1>
+              <h1 class="text-2xl font-bold mt-3 ml-1 copy-text">163</h1>
               <div
                 class="bg-[#f2f2f2] hover:bg-gray-300 w-[65px] h-[37px] rounded-3xl flex justify-center items-center px-4 py-[6px] mt-2"
               >
@@ -438,20 +425,15 @@
             </div>
           </div>
         </section>
-        <aside
-          class="mt-4 md:mt-0 bg-white col-span-3 rounded-3xl shadow-2xl mx-4 p-6 md:mx-0"
-        >
+        <aside class="mt-4 md:mt-0 bg-white col-span-3 rounded-3xl shadow-2xl mx-4 p-6 md:mx-0">
           <div class="flex justify-between items-center">
             <div class="flex gap-2 items-center">
-              <span class="mt-1"
-                ><i class="fa-solid fa-clock text-xl"></i
-              ></span>
+              <span class="mt-1">
+                <i class="fa-solid fa-clock text-xl"></i>
+              </span>
               <h1 class="text-xl font-medium">Call History</h1>
             </div>
-            <button
-              id="btn-clear"
-              class="btn bg-green-600 hover:bg-gray-400 text-white font-bold rounded-3xl w-28 h-12 text-base"
-            >
+            <button id="btn-clear" class="btn bg-green-600 hover:bg-gray-400 text-white font-bold rounded-3xl w-28 h-12 text-base">
               Clear
             </button>
           </div>
