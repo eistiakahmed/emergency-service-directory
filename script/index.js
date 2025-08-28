@@ -58,6 +58,7 @@ function handleCall(btnId, serviceName, serviceNumber) {
 
 
 // call function
+
 handleCall("call-btn-1", "National Emergency", "999");
 handleCall("call-btn-2", "Police", "999");
 handleCall("call-btn-3", "Fire Service", "999");

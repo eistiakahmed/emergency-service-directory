@@ -1,12 +1,12 @@
 ### 6. Answer the following questions clearly:
 
-1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
+1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 2. How do you create and insert a new element into the DOM?
-3. What is **Event Bubbling** and how does it work?
-4. What is **Event Delegation** in JavaScript? Why is it useful?
-5. What is the difference between **preventDefault() and stopPropagation()** methods?
+3. What is Event Bubbling and how does it work?
+4. What is Event Delegation in JavaScript? Why is it useful?
+5. What is the difference between preventDefault() and stopPropagation() methods?
 
----
+
 ### Answer:
 1. getElementById() only the specific element with the given id is returned. It always gives a single element if the id exists, otherwise it returns null.getElementsByClassName() returns all elements with that className, and it gives them in the form of an HTMLCollection. It’s not an array, but an array-like object, So I can loop through it .querySelector() returns the first element that matches the given CSS selector.querySelectorAll() returns all elements that match the given CSS selector in the form of a NodeList, which is also an array-like object.getElementById always returns a single element or null, but getElementsByClassName and querySelectorAll always return list-type objects.
 
